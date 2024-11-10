@@ -16,5 +16,8 @@
     "jsx": "react-jsx",
     "types": ["vitest/globals"]
   },
+  "exclude": [
+    "vite.config.ts"  // Exclude the Vite config file
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
